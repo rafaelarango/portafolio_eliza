@@ -1,0 +1,131 @@
+
+/* Inici0 module 4. NETNET */
+
+/* Cod general del proyecto */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Cod general del proyecto. fondo*/
+.netnet__module{
+    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+}
+
+    .netnet__block{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items: center;  
+    }
+
+
+        .netnet__section--content{
+            width:650px;        
+        }
+
+            .netnet__title{
+                color:#42E2B8;
+                padding: 10px;
+                width: 140px;
+                background: #000;
+                box-shadow: -4px 3px  0 0 #fff;
+            }
+
+            .netnet__content--text{
+                margin: 15px 0px 30px 0px;
+            }
+
+            .netnet__button{
+                border-radius: 27px;
+                border: 1px solid #000;
+                padding: 6px;
+                width: 150px;
+                height: 35px;
+                font-weight: bold;
+                background: #F6C0A5;
+            }
+
+                .netnet__button:hover{
+                    box-shadow: 0px 0px  15px -2px blue;
+                    background:#42e2b8;
+                }
+            
+                .netnet__imagen--github{
+                    width: 13px;
+                    margin-right:2px;
+                }
+
+        .netnet__section--card{
+            width:70%;
+            height: 500px;
+            margin: 100px auto;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;   
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+        }
+
+            .netnet__card--text{
+                font-size: 34px;
+                margin: 5% 0px;
+                text-align: center;
+                width: 80%;
+            }
+
+            .netnet__card--author{
+                margin: 20px auto;
+                color: rgb(122, 103, 103);
+                text-shadow: 2px 2px 4px rgb(122, 103, 103);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+@media only screen and (max-width: 850px){
+
+    .netnet__section--content{
+        padding: 10px;   
+    }
+
+    .netnet__section--imagen{
+        order:-1;
+    }
+
+    .netnet__button{
+        width: 100%;
+        margin:10px 0px;
+    }
+
+    .netnet__section--card{
+        font-size:10px;
+        height: auto;
+        padding: 25px 0px;
+        text-align: left;
+        
+    }
+
+        .netnet__imagen--photo{
+            width: 50px;
+        }
+
+        .netnet__card--text{
+            font-size:14px;
+            text-align: left;
+        }
+
+        .netnet__card--author{
+            text-align: left;
+        }
+}
+
+
+/* Fin Module 4 */
+
+
+
+    
+
