@@ -1,7 +1,23 @@
 
+/* **************************************************** Generales *************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);   
+}
+
+
+
+
+/* **************************************************** Modulo 1 **************************************/
  header{    
     padding: 32px 128px 32px 128px;    
-    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
+    /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%); Aplicamos el background al body    */
 }
 
 header p,a{
@@ -153,30 +169,27 @@ header p,a{
   
 }
 
-/* Inici0 module 4. NETNET */
+/************************************************** Inici0 module 4. NETNET *************************************/
 
 /* Cod general del proyecto */
-*{
-    margin: 0;
+/* *{
+    margin: 0;    aplicamos las propiedades a todo el proyecto
     padding: 0;
    
-}
-
-/* Cod general del proyecto. fondo*/
-.netnet__module{
-    background: linear-gradient(90deg, #F6C0A5, #F19D96);
-}
+} */
 
     .netnet__block{
         display:flex;
         flex-wrap:wrap;
         justify-content:center;
         align-items: center;  
+        
     }
 
 
         .netnet__section--content{
-            width:650px;        
+            width:650px; 
+            font-family: 'Oxygen', sans-serif;       
         }
 
             .netnet__title{
@@ -189,6 +202,7 @@ header p,a{
 
             .netnet__content--text{
                 margin: 15px 0px 30px 0px;
+                
             }
 
             .netnet__button{
@@ -198,12 +212,16 @@ header p,a{
                 width: 150px;
                 height: 35px;
                 font-weight: bold;
-                background: #F6C0A5;
+                background: rgba(0, 0, 0, 0); /* Le agregamos transparencia a los botones*/
+                box-shadow: 0px 0px  15px -2px #000;
             }
 
-                .netnet__button:hover{
-                    box-shadow: 0px 0px  15px -2px blue;
-                    background:#42e2b8;
+            .netnet__button--color{
+                background:#42e2b8; /* definimos el color salo para un boton y le aplicamos hover con transparencia*/
+            }
+
+                .netnet__button--color:hover{
+                   background: rgba(0, 0, 0, 0);
                 }
             
                 .netnet__imagen--github{
@@ -223,10 +241,13 @@ header p,a{
             align-items: center;
             justify-content: center;
             background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+            
         }
 
             .netnet__card--text{
                 font-size: 34px;
+                font-family: 'Oxygen', sans-serif;
+                font-weight: bold;
                 margin: 5% 0px;
                 text-align: center;
                 width: 80%;
@@ -245,7 +266,7 @@ header p,a{
     header{
     
         padding: 21px 16px 21px 16px;    
-        background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
+        /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);  definimos un color para todo el proyecto */
     }
     
     header p{
@@ -305,7 +326,7 @@ header p,a{
         font-size: 59px;
         font-weight: bold;
         line-height: 95px;
-        ;
+        
     }
     
     .header__main-content p:nth-child(3){
