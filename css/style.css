@@ -107,16 +107,16 @@ header p,a,h1{
 
 .header__main-picture img:nth-child(1){
     padding-top: 39px;
-    width: 560px;
-    height: 433px;   
+    width: 326px;
+    height: 280px;   
 }
 
 .header__main-picture img:nth-child(2){
     position: absolute;
     left: 27px;
     top:0px;
-    width: 390px;
-    height: 390px;    
+    width: 354px;
+    height: 315px;    
 }
 
 .header__description{    
@@ -343,18 +343,16 @@ header p,a,h1{
     
     .header__main-picture img:nth-child(1){
         padding-top: 39px;
-        width: 300px;
-        height: 240px;
-        
-        
+        width: 356px;
+        height: 353px;      
     }
     
     .header__main-picture img:nth-child(2){
         position: absolute;
-        left: 27px;
+        left: -23px;
         top:0px;
-        width: 215px;
-        height: 215px;        
+        width: 513px;
+        height: 353px;        
     }
     
     .header__description{
