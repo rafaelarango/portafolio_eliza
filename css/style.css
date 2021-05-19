@@ -1,7 +1,80 @@
+body {
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
+}
+
+.modulo_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 100px 10px 50px;
+
+}
+
+.modulo_left {
+    flex: 50%;
+    padding-right: 225px;
+    text-align: center;
+}
+
+.modulo_right {
+    margin-top: 50px;
+    flex: 50%;
+    justify-content: center;
+}
+
+.left__web {
+    max-width: 350px;
+    font-size: 40px;
+    background-color: black;
+    color: #42E2B8;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+.left__web p {
+    text-align: center;
+}
+
+.img_right_1 {
+    position: relative;
+    border: 6px solid white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #999;
+  }
+
+.button1 {
+    background-color: #42E2B8;;
+} 
+
+@media (max-width: 800px) {
+    .modulo_left, .modulo_right {
+      flex-direction: column;
+    }
+}
 
 header{    
     padding: 32px 128px 32px 128px;    
-    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
 }
 
 header p,a,h1{
@@ -213,6 +286,107 @@ header p,a,h1{
     width: 13px;
     margin-right:2px;
 }
+/* Modulo 5 - Hablemos */
+.hablemos{
+    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+    width: 100%;
+}
+
+.hablemos__content{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    font-family: 'Oxygen', sans-serif;
+}
+.hablemos__card {
+    width: 543px;
+    text-align: center;
+}
+.hablemos-title{
+    color:#42E2B8;
+    padding: 10px;
+    width: 543px;
+    text-align: center;
+    background: #000;
+    box-shadow: -4px 4px  0 0 #fff;
+}
+.hablemos{
+    padding:24px;
+    font-size: 14px;
+    background-color: #F9F9F9;
+    margin-bottom: 64px;
+}
+.hablemos__card p{
+    padding-top: 20px;
+}
+.hablemos__form{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.hablemos__form input{
+    height: 40px;
+    border: 1px solid #E7E7E7;
+    outline: none;
+    border-radius: 4px;
+    margin: 8px 0px 24px 0px;  
+}
+textarea{
+    height: 81px;
+    border-radius:4px;
+    border: 1px solid #E7E7E7;
+    resize: none;
+    outline: none;
+    margin: 8px 0px 12px 0px;
+}
+.button-hablemos{
+    border-radius: 27px;
+    border: 1px solid #000;
+    padding: 6px;
+    width: 543px;
+    height: 35px;
+    font-weight: bold;
+    background: #42E2B8;
+}
+
+/* footer */
+.footer-wrapper{
+    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer-wrapper__messageBold{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;  
+    text-align: center;    
+}
+.footer-wrapper__message{
+    padding: 10px;  
+    text-align: center;    
+}
+.footer-wrapper__message p{
+    margin:0;
+    font-family: 'Oxygen', sans-serif;
+}
+.footer-wrapper__media{    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+.footer-wrapper__media button{
+    border: 1px solid #000;
+    padding: 6px;
+    height: 35px;
+    background: #42E2B8;
+}
+
+@media only screen and (max-width: 850px){
 
 .netnet__section--card{
     width:70%;
@@ -417,19 +591,25 @@ header p,a,h1{
         text-align: left;
         
     }
-    
-    .netnet__imagen--photo{
-        width: 50px;
+
+        .netnet__imagen--photo{
+            width: 50px;
+        }
+
+        .netnet__card--text{
+            font-size:14px;
+            text-align: left;
+        }
+
+        .netnet__card--author{
+            text-align: left;
+        }
+
+    /* Hablemos */
+    .hablemos__content{
+        padding: 10px;
     }
     
-    .netnet__card--text{
-        font-size:14px;
-        text-align: left;
-    }
-    
-    .netnet__card--author{
-        text-align: left;
-    }
 }
 
 
