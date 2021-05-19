@@ -73,16 +73,20 @@ body {
     }
 }
 
- header{    
+header{    
     padding: 32px 128px 32px 128px;    
 }
 
-header p,a{
+header p,a,h1{
     font-family: 'Oxygen', sans-serif;;
 }
 
 .header__navbar p{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 39px;
 }
 
 .header__navbar{
@@ -176,16 +180,16 @@ header p,a{
 
 .header__main-picture img:nth-child(1){
     padding-top: 39px;
-    width: 560px;
-    height: 433px;   
+    width: 326px;
+    height: 280px;   
 }
 
 .header__main-picture img:nth-child(2){
     position: absolute;
     left: 27px;
     top:0px;
-    width: 390px;
-    height: 390px;    
+    width: 354px;
+    height: 315px;    
 }
 
 .header__description{    
@@ -203,8 +207,7 @@ header p,a{
 }
 
 .header__description p{
-    display: block;
-    margin: auto;
+    text-align: center;
     font-weight: bold;
     font-size: 24px;
     line-height: 39px;
@@ -213,17 +216,17 @@ header p,a{
 
 .header__description--experience p{        
     text-align:center;
-   font-weight: normal;
-    font-size: 24px;
-    line-height: 39px;    
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;    
 }
 
 
 .header__description img{
-   display: block;   
-   margin: auto;
-   margin-top: 24px;
-  
+    display: block;   
+    margin: auto;
+    margin-top: 24px;
+    
 }
 
 /* Inici0 module 4. NETNET */
@@ -232,7 +235,7 @@ header p,a{
 *{
     margin: 0;
     padding: 0;
-   
+    
 }
 
 /* Cod general del proyecto. fondo*/
@@ -240,78 +243,49 @@ header p,a{
     background: linear-gradient(90deg, #F6C0A5, #F19D96);
 }
 
-    .netnet__block{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items: center;  
-    }
+.netnet__block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;  
+}
 
 
-        .netnet__section--content{
-            width:650px;        
-        }
+.netnet__section--content{
+    width:650px;        
+}
 
-            .netnet__title{
-                color:#42E2B8;
-                padding: 10px;
-                width: 140px;
-                background: #000;
-                box-shadow: -4px 3px  0 0 #fff;
-            }
+.netnet__title{
+    color:#42E2B8;
+    padding: 10px;
+    width: 140px;
+    background: #000;
+    box-shadow: -4px 3px  0 0 #fff;
+}
 
-            .netnet__content--text{
-                margin: 15px 0px 30px 0px;
-            }
+.netnet__content--text{
+    margin: 15px 0px 30px 0px;
+}
 
-            .netnet__button{
-                border-radius: 27px;
-                border: 1px solid #000;
-                padding: 6px;
-                width: 150px;
-                height: 35px;
-                font-weight: bold;
-                background: #F6C0A5;
-            }
+.netnet__button{
+    border-radius: 27px;
+    border: 1px solid #000;
+    padding: 6px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    background: #F6C0A5;
+}
 
-                .netnet__button:hover{
-                    box-shadow: 0px 0px  15px -2px blue;
-                    background:#42e2b8;
-                }
-            
-                .netnet__imagen--github{
-                    width: 13px;
-                    margin-right:2px;
-                }
+.netnet__button:hover{
+    box-shadow: 0px 0px  15px -2px blue;
+    background:#42e2b8;
+}
 
-        .netnet__section--card{
-            width:70%;
-            height: 500px;
-            margin: 100px auto;
-            border-top: 1px solid #fff;
-            border-left: 1px solid #fff;   
-            border-radius: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
-        }
-
-            .netnet__card--text{
-                font-size: 34px;
-                margin: 5% 0px;
-                text-align: center;
-                width: 80%;
-            }
-
-            .netnet__card--author{
-                margin: 20px auto;
-                color: rgb(122, 103, 103);
-                text-shadow: 2px 2px 4px rgb(122, 103, 103);
-                font-family: Arial, Helvetica, sans-serif;
-            }
-
+.netnet__imagen--github{
+    width: 13px;
+    margin-right:2px;
+}
 /* Modulo 5 - Hablemos */
 .hablemos{
     background: linear-gradient(90deg, #F6C0A5, #F19D96);
@@ -414,35 +388,68 @@ textarea{
 
 @media only screen and (max-width: 850px){
 
+.netnet__section--card{
+    width:70%;
+    height: 500px;
+    margin: 100px auto;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;   
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+}
+
+.netnet__card--text{
+    font-size: 34px;
+    margin: 5% 0px;
+    text-align: center;
+    width: 80%;
+}
+
+.netnet__card--author{
+    margin: 20px auto;
+    color: rgb(122, 103, 103);
+    text-shadow: 2px 2px 4px rgb(122, 103, 103);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 850px){
+    
     /* Inicio modulo 1 */
     header{
-    
+        
         padding: 21px 16px 21px 16px;    
         background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
     }
     
-    header p{
-        font-family: 'Oxygen', sans-serif;;
+    header p,h1{
+        font-family: 'Oxygen', sans-serif;
     }
-
+    
     .header__navbar p{
         font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 39px;
     }
-
+    
     .header__navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin-bottom: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom: 75px;
     }
-
+    
     .header__navbar-links{
         display: none;
     }
     .header__navbar button:nth-child(4){
         display: none;
     }
-
+    
     .header__navbar button:nth-child(3){
         display: block;
         width: 150px;
@@ -451,11 +458,11 @@ textarea{
         border-radius: 90px;
         box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
     }
-
+    
     .header__ellipse-purple{
         display: none;
     }
-
+    
     .header__main-hero{
         display: flex;
         flex-direction: column-reverse;
@@ -464,7 +471,7 @@ textarea{
     }
     
     .header__main-content{
-        width: 90%;
+        width: 100%;
     }
     
     .header__main-content p:nth-child(1){
@@ -478,7 +485,7 @@ textarea{
         font-size: 59px;
         font-weight: bold;
         line-height: 95px;
-        ;
+        
     }
     
     .header__main-content p:nth-child(3){
@@ -503,27 +510,25 @@ textarea{
         justify-content: center;
         border: 1px solid black
     }
-
+    
     .header__main-picture{
         position: relative;
     }
     
     .header__main-picture img:nth-child(1){
         padding-top: 39px;
-        width: 300px;
-        height: 240px;
-        
-        
+        width: 356px;
+        height: 353px;      
     }
     
     .header__main-picture img:nth-child(2){
         position: absolute;
-        left: 27px;
+        left: -23px;
         top:0px;
-        width: 215px;
-        height: 215px;        
+        width: 513px;
+        height: 353px;        
     }
-
+    
     .header__description{
         margin-top: 100px;
         display: flex;
@@ -533,8 +538,7 @@ textarea{
     }
     
     .header__description p{
-        display: block;
-        margin: auto;
+        text-align: center;
         font-weight: bold;
         font-size: 24px;
         line-height: 39px;
@@ -555,31 +559,31 @@ textarea{
     }
     
     .header__description--experience p{           
-        text-align:justify;
-       font-weight: normal;
+        text-align:center;
+        font-weight: normal;
         font-size: 24px;
         line-height: 39px;    
     }
     
     .header__description img{        
-       display: block;   
-       margin: auto;
-       margin-top: 24px;      
+        display: block;   
+        margin: auto;
+        margin-top: 24px;      
     }
-
+    
     .netnet__section--content{
         padding: 10px;   
     }
-
+    
     .netnet__section--imagen{
         order:-1;
     }
-
+    
     .netnet__button{
         width: 100%;
         margin:10px 0px;
     }
-
+    
     .netnet__section--card{
         font-size:10px;
         height: auto;
@@ -613,5 +617,5 @@ textarea{
 
 
 
-    
+
 
