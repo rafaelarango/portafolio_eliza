@@ -1,6 +1,15 @@
-body {
-    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
+/* **************************************************** Generales *************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+   
 }
+
+body{
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);   
+}
+
 
 .modulo_2 {
     display: flex;
@@ -36,17 +45,7 @@ body {
     text-align: center;
 }
 
-/* **************************************************** Generales *************************************/
 
-*{
-    margin: 0;
-    padding: 0;
-   
-}
-
-body{
-    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);   
-}
 
 
 
@@ -249,14 +248,7 @@ header p,a,h1{
     
 }
 
-/************************************************** Inici0 module 4. NETNET *************************************/
-
-/* Cod general del proyecto */
-/* *{
-    margin: 0;    aplicamos las propiedades a todo el proyecto
-    padding: 0;
-   
-} */
+/************************************************** Inicio module 4. NETNET *************************************/
 
     .netnet__block{
         display:flex;
@@ -332,58 +324,8 @@ header p,a,h1{
                 text-align: center;
                 width: 80%;
             }
-    
-}
 
-/* Cod general del proyecto. fondo*/
-/* .netnet__module{
-    background: linear-gradient(90deg, #F6C0A5, #F19D96);
-} */
-
-.netnet__block{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items: center;  
-}
-
-
-/* .netnet__section--content{
-    width:650px;        
-} */
-
-.netnet__title{
-    color:#42E2B8;
-    padding: 10px;
-    width: 140px;
-    background: #000;
-    box-shadow: -4px 3px  0 0 #fff;
-}
-
-.netnet__content--text{
-    margin: 15px 0px 30px 0px;
-}
-
-.netnet__button{
-    border-radius: 27px;
-    border: 1px solid #000;
-    padding: 6px;
-    width: 150px;
-    height: 35px;
-    font-weight: bold;
-    background: #F6C0A5;
-}
-
-.netnet__button:hover{
-    box-shadow: 0px 0px  15px -2px blue;
-    background:#42e2b8;
-}
-
-.netnet__imagen--github{
-    width: 13px;
-    margin-right:2px;
-}
-/* Modulo 5 - Hablemos */
+/************************************************* Modulo 5 - Hablemos *******************************************/
 .hablemos{
     background: linear-gradient(90deg, #F6C0A5, #F19D96);
     width: 100%;
@@ -485,32 +427,33 @@ textarea{
 
 @media only screen and (max-width: 850px){
 
-.netnet__section--card{
-    width:70%;
-    height: 500px;
-    margin: 100px auto;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;   
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
-}
+    .netnet__section--card{
+        width:70%;
+        height: 500px;
+        margin: 100px auto;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;   
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+    }
 
-.netnet__card--text{
-    font-size: 34px;
-    margin: 5% 0px;
-    text-align: center;
-    width: 80%;
-}
+    .netnet__card--text{
+        font-size: 34px;
+        margin: 5% 0px;
+        text-align: center;
+        width: 80%;
+    }
 
-.netnet__card--author{
-    margin: 20px auto;
-    color: rgb(122, 103, 103);
-    text-shadow: 2px 2px 4px rgb(122, 103, 103);
-    font-family: Arial, Helvetica, sans-serif;
+    .netnet__card--author{
+        margin: 20px auto;
+        color: rgb(122, 103, 103);
+        text-shadow: 2px 2px 4px rgb(122, 103, 103);
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 @media only screen and (max-width: 850px){
@@ -706,13 +649,5 @@ textarea{
     .hablemos__content{
         padding: 10px;
     }
-    
+   
 }
-
-
-/* Fin Module 4 */
-
-
-
-
-
