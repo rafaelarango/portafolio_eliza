@@ -248,6 +248,89 @@ header p,a,h1{
     
 }
 
+/* ************************************************ Inicio Modulo 3. "MAVEL" *********************************** */
+
+.marvol__block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;  
+    
+}
+
+
+    .marvol__section--content{
+        width:450px; 
+        font-family: 'Oxygen', sans-serif;       
+    }
+
+        .marvol__title{
+            color:#42E2B8;
+            padding: 10px;
+            width: 140px;
+            background: #000;
+            box-shadow: -4px 3px  0 0 #fff;
+        }
+
+        .marvol__content--text{
+            margin: 15px 0px 30px 0px;
+            
+        }
+
+        .marvol__button{
+            border-radius: 27px;
+            border: 1px solid #000;
+            padding: 6px;
+            width: 150px;
+            height: 35px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0); 
+            box-shadow: 0px 0px  15px -2px #000;
+        }
+
+        .marvol__button--color{
+            background:#42e2b8; 
+        }
+
+            .marvol__button--color:hover{
+               background: rgba(0, 0, 0, 0);
+            }
+        
+            .marvol__imagen--github{
+                width: 13px;
+                margin-right:2px;
+            }
+
+    
+    .marvol__section--card{
+        width:80%;
+        height: 500px;
+        margin: 100px auto;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;   
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+        
+    }
+
+        .marvol__card--text{
+            font-size: 34px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: bold;
+            margin: 5% 0px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .marvol__card--author{
+            color: rgb(122, 103, 103); 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
 /************************************************** Inicio module 4. NETNET *************************************/
 
     .netnet__block{
@@ -302,7 +385,7 @@ header p,a,h1{
                 }
 
         .netnet__section--card{
-            width:70%;
+            width:80%;
             height: 500px;
             margin: 100px auto;
             border-top: 1px solid #fff;
@@ -323,6 +406,17 @@ header p,a,h1{
                 margin: 5% 0px;
                 text-align: center;
                 width: 80%;
+            }
+
+            .netnet__card--author{
+                margin: 20px auto;
+                color: rgb(122, 103, 103);
+                text-shadow: 2px 2px 4px rgb(122, 103, 103);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .mavel__imagen--web{
+                display: none;
             }
 
 /************************************************* Modulo 5 - Hablemos *******************************************/
@@ -425,36 +519,6 @@ textarea{
     background: #42E2B8;
 }
 
-@media only screen and (max-width: 850px){
-
-    .netnet__section--card{
-        width:70%;
-        height: 500px;
-        margin: 100px auto;
-        border-top: 1px solid #fff;
-        border-left: 1px solid #fff;   
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
-    }
-
-    .netnet__card--text{
-        font-size: 34px;
-        margin: 5% 0px;
-        text-align: center;
-        width: 80%;
-    }
-
-    .netnet__card--author{
-        margin: 20px auto;
-        color: rgb(122, 103, 103);
-        text-shadow: 2px 2px 4px rgb(122, 103, 103);
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
 
 @media only screen and (max-width: 850px){
     
@@ -610,7 +674,50 @@ textarea{
         margin: auto;
         margin-top: 24px;      
     }
+
+    /* ------------------------------------------------responsive Modulo 3. -----------------------------*/
+
+    .marvol__section--content{
+        padding: 79px 10px 0px 10px; 
+    }
     
+    .marvol__button{
+        width: 100%;
+        margin:10px 0px;
+    }
+
+    .marvol__imagen--mobile{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .marvol__section--card{
+        font-size:10px;
+        height: auto;
+        padding: 25px 0px;
+        text-align: left;
+        
+    }
+
+        .marvol__imagen--photo{
+            width: 50px;
+        }
+
+        .marvol__card--text{
+            font-size:14px;
+            text-align: left;
+        }
+
+        .marvol__card--author{
+            text-align: left;
+            margin: 5px;
+        }
+
+    
+
+        
+
+    /* ------------------------------------------------responsibe Modulo 4. -----------------------------*/
     .netnet__section--content{
         padding: 10px;   
     }
