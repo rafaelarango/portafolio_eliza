@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+
+.marvol-seccion {
+    display: flex;
+    padding-left: 225px;
+    padding-right: 128px;
+}
+
+.marvol-seccion .marvol-tablet {
+    background-color: #F9F9F9;
+    width: 448px;
+    height: 626px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.marvol-tablet-camera {
+    background: linear-gradient(360deg, #EBEBEB 0%, #C8C8C8 100%);
+    width: 8.25px;
+    height: 8.24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.marvol-tablet-camera-lens {
+    background-color: #F9FAFA;
+    width: 4.77px;
+    height: 4.77px;
+    border-radius: 50%;
+}
+
+.marvol-table-img {
+    width: 403px;
+    height: 523px; 
+    margin-top: 19px;
+}
+
+.marvol-tablet-button {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(360deg, #EBEBEB 0%, #C8C8C8 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.marvol-tablet-button-inner {
+    width: 28px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+}
+
+.marvol-seccion .marvol-text {
+    width: 448px;
+    height: 626px;
+    padding-left: 120px;
+    margin-top: 278px;
+}
+
+.marvol-text-content {
+    height: 57px;
+    width: 357px;
+    left: 0px;
+    top: 174px;
+    border-radius: 0px;
+    padding: 8px, 0px, 0px, 0px;
+}
+
+.marvol-button-proyect {
+    width: 165px;
+    height: 49px;
+    background-color: #42E2B8;
+    border: 2px solid #0F0A0A;
+    box-sizing: border-box;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+}
+
+.marvol-button-codigo {
+ 
+    width: 165px;
+    height: 49px;
+    /*background-color: #EBEBEB;*/
+    border: 2px solid #0F0A0A;
+    box-sizing: border-box;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+
+.marvol-container {
+    
+}
