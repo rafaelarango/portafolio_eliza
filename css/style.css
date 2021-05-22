@@ -1,3 +1,4 @@
+/* **************************************************** Generales *************************************/
 
  header{    
     padding: 32px 128px 32px 128px;    
@@ -162,21 +163,345 @@ header p,a{
    
 }
 
-/* Cod general del proyecto. fondo*/
-.netnet__module{
-    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+body{
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);   
 }
+
+
+.modulo_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 100px 10px 50px;
+
+}
+
+.modulo_left {
+    flex: 50%;
+    padding-right: 225px;
+    text-align: center;
+}
+
+.modulo_right {
+    margin-top: 50px;
+    flex: 50%;
+    justify-content: center;
+}
+
+.left__web {
+    max-width: 350px;
+    font-size: 40px;
+    background-color: black;
+    color: #42E2B8;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+.left__web p {
+    text-align: center;
+}
+
+
+
+
+
+
+/* **************************************************** Modulo 1 **************************************/
+ header{    
+    padding: 32px 128px 32px 128px;    
+    /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%); Aplicamos el background al body    */
+ }
+.img_right_1 {
+    position: relative;
+    border: 6px solid white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #999;
+  }
+
+.button1 {
+    background-color: #42E2B8;;
+} 
+
+@media (max-width: 800px) {
+    .modulo_left, .modulo_right {
+      flex-direction: column;
+    }
+}
+
+header{    
+    padding: 32px 128px 32px 128px;    
+}
+
+header p,a,h1{
+    font-family: 'Oxygen', sans-serif;;
+}
+
+.header__navbar p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 75px;
+}
+
+.header__navbar-links a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #0F0A0A;
+    opacity: 0.5;
+}
+
+.header__navbar-links a:first-child{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.header__ellipse-purple{
+    position: absolute;
+    top:89px;
+    left: -2px;
+}
+
+.header__navbar button:nth-child(4){
+    display: block;
+    width: 250px;
+    height: 49px;    
+    background-color: #42E2B8;
+    border-radius: 90px;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.header__navbar button:nth-child(3){
+    display: none;    
+}
+
+.header__main-hero{
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+}
+
+.header__main-content{
+    width: 40%;
+}
+
+.header__main-content p:nth-child(1){
+    font-weight: bold;
+    font-size: 48px;
+    color: #0F0A0A;
+    line-height: 78px;
+}
+
+.header__main-content h1{
+    font-size: 59px;
+    font-weight: bold;
+    line-height: 95px;    
+}
+
+.header__main-content p:nth-child(3){
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header__main--media{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 240px;
+    margin-top: 16px;
+}
+
+.header__main--media a{
+    width: 44px;
+    height: 44px;
+    background-color:#42E2B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black
+}
+
+.header__main-picture{
+    position: relative;
+}
+
+.header__main-picture img:nth-child(1){
+    padding-top: 39px;
+    width: 326px;
+    height: 280px;   
+}
+
+.header__main-picture img:nth-child(2){
+    position: absolute;
+    left: 27px;
+    top:0px;
+    width: 354px;
+    height: 315px;    
+}
+
+.header__description{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    position: relative;
+    top:-60px;
+}
+
+.header__ellipse-blue{
+    position: relative;
+    left: 30%;
+}
+
+.header__description p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    margin-bottom: 24px;    
+}
+
+.header__description--experience p{        
+    text-align:center;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;    
+}
+
+
+.header__description img{
+    display: block;   
+    margin: auto;
+    margin-top: 24px;
+    
+}
+
+/* ************************************************ Inicio Modulo 3. "MAVEL" *********************************** */
+
+.marvol__block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;  
+    
+}
+
+
+    .marvol__section--content{
+        width:450px; 
+        font-family: 'Oxygen', sans-serif;       
+    }
+
+        .marvol__title{
+            color:#42E2B8;
+            padding: 10px;
+            width: 140px;
+            background: #000;
+            box-shadow: -4px 3px  0 0 #fff;
+        }
+
+        .marvol__content--text{
+            margin: 15px 0px 30px 0px;
+            
+        }
+
+        .marvol__button{
+            border-radius: 27px;
+            border: 1px solid #000;
+            padding: 6px;
+            width: 150px;
+            height: 35px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0); 
+            box-shadow: 0px 0px  15px -2px #000;
+        }
+
+        .marvol__button--color{
+            background:#42e2b8; 
+        }
+
+            .marvol__button--color:hover{
+               background: rgba(0, 0, 0, 0);
+            }
+        
+            .marvol__imagen--github{
+                width: 13px;
+                margin-right:2px;
+            }
+
+    
+    .marvol__section--card{
+        width:80%;
+        height: 500px;
+        margin: 100px auto;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;   
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+        
+    }
+
+        .marvol__card--text{
+            font-size: 34px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: bold;
+            margin: 5% 0px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .marvol__card--author{
+            color: rgb(122, 103, 103); 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+/************************************************** Inicio module 4. NETNET *************************************/
 
     .netnet__block{
         display:flex;
         flex-wrap:wrap;
         justify-content:center;
         align-items: center;  
+        
     }
 
 
         .netnet__section--content{
-            width:650px;        
+            width:650px; 
+            font-family: 'Oxygen', sans-serif;       
         }
 
             .netnet__title{
@@ -189,6 +514,7 @@ header p,a{
 
             .netnet__content--text{
                 margin: 15px 0px 30px 0px;
+                
             }
 
             .netnet__button{
@@ -198,12 +524,16 @@ header p,a{
                 width: 150px;
                 height: 35px;
                 font-weight: bold;
-                background: #F6C0A5;
+                background: rgba(0, 0, 0, 0); /* Le agregamos transparencia a los botones*/
+                box-shadow: 0px 0px  15px -2px #000;
             }
 
-                .netnet__button:hover{
-                    box-shadow: 0px 0px  15px -2px blue;
-                    background:#42e2b8;
+            .netnet__button--color{
+                background:#42e2b8; /* definimos el color salo para un boton y le aplicamos hover con transparencia*/
+            }
+
+                .netnet__button--color:hover{
+                   background: rgba(0, 0, 0, 0);
                 }
             
                 .netnet__imagen--github{
@@ -212,7 +542,7 @@ header p,a{
                 }
 
         .netnet__section--card{
-            width:70%;
+            width:80%;
             height: 500px;
             margin: 100px auto;
             border-top: 1px solid #fff;
@@ -223,10 +553,13 @@ header p,a{
             align-items: center;
             justify-content: center;
             background: linear-gradient(90deg,#F2B5A1, #F4B2AC ); 
+            
         }
 
             .netnet__card--text{
                 font-size: 34px;
+                font-family: 'Oxygen', sans-serif;
+                font-weight: bold;
                 margin: 5% 0px;
                 text-align: center;
                 width: 80%;
@@ -239,37 +572,145 @@ header p,a{
                 font-family: Arial, Helvetica, sans-serif;
             }
 
-@media only screen and (max-width: 850px){
+            .mavel__imagen--web{
+                display: none;
+            }
 
+/************************************************* Modulo 5 - Hablemos *******************************************/
+.hablemos{
+    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+    width: 100%;
+}
+
+.hablemos__content{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    font-family: 'Oxygen', sans-serif;
+}
+.hablemos__card {
+    width: 543px;
+    text-align: center;
+}
+.hablemos-title{
+    color:#42E2B8;
+    padding: 10px;
+    width: 543px;
+    text-align: center;
+    background: #000;
+    box-shadow: -4px 4px  0 0 #fff;
+}
+.hablemos{
+    padding:24px;
+    font-size: 14px;
+    background-color: #F9F9F9;
+    margin-bottom: 64px;
+}
+.hablemos__card p{
+    padding-top: 20px;
+}
+.hablemos__form{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.hablemos__form input{
+    height: 40px;
+    border: 1px solid #E7E7E7;
+    outline: none;
+    border-radius: 4px;
+    margin: 8px 0px 24px 0px;  
+}
+textarea{
+    height: 81px;
+    border-radius:4px;
+    border: 1px solid #E7E7E7;
+    resize: none;
+    outline: none;
+    margin: 8px 0px 12px 0px;
+}
+.button-hablemos{
+    border-radius: 27px;
+    border: 1px solid #000;
+    padding: 6px;
+    width: 543px;
+    height: 35px;
+    font-weight: bold;
+    background: #42E2B8;
+}
+
+/* footer */
+.footer-wrapper{
+    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer-wrapper__messageBold{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;  
+    text-align: center;    
+}
+.footer-wrapper__message{
+    padding: 10px;  
+    text-align: center;    
+}
+.footer-wrapper__message p{
+    margin:0;
+    font-family: 'Oxygen', sans-serif;
+}
+.footer-wrapper__media{    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+.footer-wrapper__media button{
+    border: 1px solid #000;
+    padding: 6px;
+    height: 35px;
+    background: #42E2B8;
+}
+
+
+@media only screen and (max-width: 850px){
+    
     /* Inicio modulo 1 */
     header{
-    
+        
         padding: 21px 16px 21px 16px;    
-        background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);    
+        /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%);  definimos un color para todo el proyecto */
     }
     
-    header p{
+    header p,h1{
         font-family: 'Oxygen', sans-serif;
     }
-
+    
     .header__navbar p{
         font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 39px;
     }
-
+    
     .header__navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin-bottom: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom: 75px;
     }
-
+    
     .header__navbar-links{
         display: none;
     }
     .header__navbar button:nth-child(4){
         display: none;
     }
-
+    
     .header__navbar button:nth-child(3){
         display: block;
         width: 150px;
@@ -278,11 +719,11 @@ header p,a{
         border-radius: 90px;
         box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
     }
-
+    
     .header__ellipse-purple{
         display: none;
     }
-
+    
     .header__main-hero{
         display: flex;
         flex-direction: column-reverse;
@@ -291,7 +732,7 @@ header p,a{
     }
     
     .header__main-content{
-        width: 90%;
+        width: 100%;
     }
     
     .header__main-content p:nth-child(1){
@@ -305,7 +746,7 @@ header p,a{
         font-size: 59px;
         font-weight: bold;
         line-height: 95px;
-        ;
+        
     }
     
     .header__main-content p:nth-child(3){
@@ -330,27 +771,25 @@ header p,a{
         justify-content: center;
         border: 1px solid black
     }
-
+    
     .header__main-picture{
         position: relative;
     }
     
     .header__main-picture img:nth-child(1){
         padding-top: 39px;
-        width: 300px;
-        height: 240px;
-        
-        
+        width: 356px;
+        height: 353px;      
     }
     
     .header__main-picture img:nth-child(2){
         position: absolute;
-        left: 27px;
+        left: -23px;
         top:0px;
-        width: 215px;
-        height: 215px;        
+        width: 513px;
+        height: 353px;        
     }
-
+    
     .header__description{
         margin-top: 100px;
         display: flex;
@@ -360,8 +799,7 @@ header p,a{
     }
     
     .header__description p{
-        display: block;
-        margin: auto;
+        text-align: center;
         font-weight: bold;
         font-size: 24px;
         line-height: 39px;
@@ -382,31 +820,74 @@ header p,a{
     }
     
     .header__description--experience p{           
-        text-align:justify;
-       font-weight: normal;
+        text-align:center;
+        font-weight: normal;
         font-size: 24px;
         line-height: 39px;    
     }
     
     .header__description img{        
-       display: block;   
-       margin: auto;
-       margin-top: 24px;      
+        display: block;   
+        margin: auto;
+        margin-top: 24px;      
     }
 
-    .netnet__section--content{
-        padding: 10px;   
-    }
+    /* ------------------------------------------------responsive Modulo 3. -----------------------------*/
 
-    .netnet__section--imagen{
-        order:-1;
+    .marvol__section--content{
+        padding: 79px 10px 0px 10px; 
     }
-
-    .netnet__button{
+    
+    .marvol__button{
         width: 100%;
         margin:10px 0px;
     }
 
+    .marvol__imagen--mobile{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .marvol__section--card{
+        font-size:10px;
+        height: auto;
+        padding: 25px 0px;
+        text-align: left;
+        
+    }
+
+        .marvol__imagen--photo{
+            width: 50px;
+        }
+
+        .marvol__card--text{
+            font-size:14px;
+            text-align: left;
+        }
+
+        .marvol__card--author{
+            text-align: left;
+            margin: 5px;
+        }
+
+    
+
+        
+
+    /* ------------------------------------------------responsibe Modulo 4. -----------------------------*/
+    .netnet__section--content{
+        padding: 10px;   
+    }
+    
+    .netnet__section--imagen{
+        order:-1;
+    }
+    
+    .netnet__button{
+        width: 100%;
+        margin:10px 0px;
+    }
+    
     .netnet__section--card{
         font-size:10px;
         height: auto;
@@ -427,12 +908,10 @@ header p,a{
         .netnet__card--author{
             text-align: left;
         }
+
+    /* Hablemos */
+    .hablemos__content{
+        padding: 10px;
+    }
+   
 }
-
-
-/* Fin Module 4 */
-
-
-
-    
-
