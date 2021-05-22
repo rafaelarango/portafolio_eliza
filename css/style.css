@@ -104,7 +104,8 @@ header p,a{
 
 .header__main-picture img:nth-child(1){
     padding-top: 39px;
-    width: 560px;
+    padding-left: 53px;
+    width: 306px;    
     height: 433px;   
 }
 
@@ -356,16 +357,17 @@ header p,a,h1{
 
 .header__main-picture img:nth-child(1){
     padding-top: 39px;
-    width: 326px;
+    padding-left: 53px;
+    width: 306px;
     height: 280px;   
 }
 
 .header__main-picture img:nth-child(2){
     position: absolute;
-    left: 27px;
+    left: -109px;
     top:0px;
-    width: 354px;
-    height: 315px;    
+    width: 553px;
+    height: 350px;    
 }
 
 .header__description{    
@@ -772,23 +774,7 @@ textarea{
         border: 1px solid black
     }
     
-    .header__main-picture{
-        position: relative;
-    }
     
-    .header__main-picture img:nth-child(1){
-        padding-top: 39px;
-        width: 356px;
-        height: 353px;      
-    }
-    
-    .header__main-picture img:nth-child(2){
-        position: absolute;
-        left: -23px;
-        top:0px;
-        width: 513px;
-        height: 353px;        
-    }
     
     .header__description{
         margin-top: 100px;
