@@ -1,9 +1,7 @@
-/* **************************************************** Generales *************************************/
 
 *{
     margin: 0;
-    padding: 0;
-   
+    padding: 0;  
 }
 
 body{
@@ -11,46 +9,9 @@ body{
 }
 
 
-.modulo_2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 30px 100px 10px 50px;
-
-}
-
-.modulo_left {
-    flex: 50%;
-    padding-right: 225px;
-    text-align: center;
-}
-
-.modulo_right {
-    margin-top: 50px;
-    flex: 50%;
-    justify-content: center;
-}
-
-.left__web {
-    max-width: 350px;
-    font-size: 40px;
-    background-color: black;
-    color: #42E2B8;
-    padding-right: 0;
-    margin-right: 0;
-    
-}
-
-.left__web p {
-    text-align: center;
-}
-
-
-
-
-
-
 /* **************************************************** Modulo 1 **************************************/
+
+
  header{    
     padding: 32px 128px 32px 128px;    
     /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 168%); Aplicamos el background al body    */
