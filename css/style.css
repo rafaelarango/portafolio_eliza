@@ -561,7 +561,9 @@ textarea{
 
 /********************************************************** footer ****************************************/
 .footer-wrapper{
-    background: linear-gradient(90deg, #F6C0A5, #F19D96);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     display: inline-flex;
     width: 100%;
 }
@@ -590,6 +592,10 @@ textarea{
     padding: 6px;
     height: 35px;
     background: #42E2B8;
+}
+
+.footer__wrapper__imagen{
+    margin: 4px;
 }
 
 
@@ -867,6 +873,26 @@ textarea{
 
     .hablemos-title{
         width:60%;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-wrapper__messageBold{
+        order: -2;
+    }
+
+    .footer-wrapper__media{
+        justify-content: center;
+        order: -1;
+    }
+
+    .footer-wrapper__message p{
+        line-height: 38px;
+        width: 55%;
+        margin: 0 auto;
     }
 
 }
